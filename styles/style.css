@@ -2,6 +2,11 @@
   width: 210px;
   height: 50px;
 }
+
+section {
+  margin-bottom: 100px;
+}
+
 .menu-text li {
   list-style-type: none;
 }
@@ -27,7 +32,7 @@
   font-size: 15px;
   border: none;
   background-color: #0fbf6118;
-  padding: 10px;
+  padding: 10px 25px 10px 25px;
   border-radius: 5px;
 }
 .text h1 {
@@ -38,6 +43,12 @@
 }
 .slider {
   display: flex;
+}
+.nkar > img {
+  margin-left:300px;
+  width: 450px;
+  height: 450px;
+
 }
 .btn-green{
   border-radius: 5px;
@@ -68,16 +79,7 @@
     width: 400px;
     height:400px;
   }
-  
-  .about{
-    border:none;
-    color:#0fbf61;
-    background-color:#0c974d18;
-    width:120px;
-    height:40px;
-    border-radius:5px;
-    font-size:15px;
-  }
+ 
   .download{
     border:none;
     color:#ffffff;
@@ -87,3 +89,53 @@
     border-radius:5px;
   }
   
+
+  .title{
+        font-size: 30px;
+        color:#151D41
+  }
+
+  .description{
+    font-size: 16px;
+    color:#151D41
+  }
+
+  .black{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    width: 1200px;
+  }
+  .white{
+    width:350px;
+    height:350px;
+  }
+  .web{
+width:200px;
+height:200px;
+border-radius: 50%;
+box-shadow:rgba(19, 26, 56, 0.08) 0px 26px 48px 2px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  }
+  .tokos{
+    font-size:40px;
+  }
+  .glxavor{
+    display:flex;
+    justify-content:space-between;
+  }
+
+
+  .percent50 {
+    background-image: url(../images/50%.png);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+
+    
+  }
