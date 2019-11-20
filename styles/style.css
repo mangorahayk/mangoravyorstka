@@ -168,7 +168,7 @@ justify-content: center;
     border-radius:5px;
    padding:13px;
   }
-  .my{
+  .folyo{
     margin-left:35px;
   }
   .nkarner{
@@ -176,7 +176,26 @@ justify-content: center;
     display:flex;
     margin-left:345px;
     }
-    .reklam{
-      border-radius:5px;
-background-image:url(../images/tonnie.png)
-    }
+   .hello{
+     width:300px;
+     height:270px;
+   }
+   .Baky{
+    width:300px;
+    height:270px; 
+   }
+   .mardik{
+    width:300px;
+    height:270px;
+  }
+  .kyaj{
+    width:300px;
+    height:270px;
+  }
+  .product{
+    width:300px;
+    height:270px;
+  }
+   
+  
+   
