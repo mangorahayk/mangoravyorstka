@@ -34,6 +34,7 @@ section {
   background-color: #0fbf6118;
   padding: 10px 25px 10px 25px;
   border-radius: 5px;
+
 }
 .text h1 {
   font-size: 40px;
@@ -98,7 +99,6 @@ section {
   .description{
     font-size: 16px;
     color:#151D41;
- 
   }
 
   .black{
@@ -112,6 +112,7 @@ section {
   .white{
     width:350px;
     height:350px;
+    background-image:url(../images/background.png)
   }
   .web{
 width:200px;
@@ -191,11 +192,59 @@ justify-content: center;
   .kyaj{
     width:300px;
     height:270px;
+    display:block;
   }
   .product{
     width:300px;
     height:270px;
   }
-   
+  .registr input{
+    width:320px;
+    height:50px;
+    border-radius:5px;
+   border: 1px solid #151D41;
+   padding:9px;
+   vertical-align: middle;
+  }
   
-   
+  .form-header{
+    text-align: center;
+    font-size:20px;
+    font-weight: 700;
+    margin-bottom: 55px;
+  }
+.namak input{
+  width: 500px;
+  height: 100px;
+  border-radius:5px;
+  border: 1px solid #151D41;
+  vertical-align:middle;
+  padding:15px;
+}
+.more{
+  width:300px;
+  height:270px;
+}
+.sit{
+  color:#151D41;
+background-color:#ffffff;
+background-repeat: no-repeat;
+background-size: 80% 80%;
+width:200px;
+height: 200px;
+}
+.day {
+  width:350px;
+  height:450px;
+}
+.lorem{
+  width:350px;
+  height:450px;
+}
+.imak{
+  width: 350px;
+  height: 450px;
+}
+.mardik{
+  display:flex;
+}
